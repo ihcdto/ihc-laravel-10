@@ -1,0 +1,31 @@
+{
+    "name": "ihc-dto/prototype",
+    "description": "",
+    "authors": [
+        {
+            "name": "IHC DTO",
+            "email": "notification@ihc.id"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Prototype\\": "",
+            "Modules\\Prototype\\App\\": "app/",
+            "Modules\\Prototype\\Database\\Factories\\": "database/factories/",
+            "Modules\\Prototype\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Prototype\\Tests\\": "tests/"
+        }
+    }
+}

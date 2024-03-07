@@ -1,0 +1,11 @@
+{
+    "name": "Prototype",
+    "alias": "prototype",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Prototype\\App\\Providers\\PrototypeServiceProvider"
+    ],
+    "files": []
+}
